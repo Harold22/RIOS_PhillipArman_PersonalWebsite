@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#header nav ul {
+    text-align: center;
+}
+
+div#header nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-button {
+    display: block;
+    text-decoration: none;
+    padding: 40px 60px ;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#banner {
+    text-align: center;
+}
