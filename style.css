@@ -4,28 +4,52 @@
     border: 0;
 }
 
-#header {
+#nav-bar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    padding-left: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
+    z-index: 10;
+    position: fixed;
 }
 
-#header nav ul {
-    text-align: center;
-}
-
-div#header nav ul li {
+#nav-bar ul{
     list-style: none;
-    display: inline-block;
 }
 
-.nav-button {
+li {
+    float: left;
+}
+
+li a {
     display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 60px;
     text-decoration: none;
-    padding: 40px 60px ;
-    font-size: 20px;
-    font-weight: 300;
+    transition:  background-color 0.5s ease;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #banner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.stretch {
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    width: 100%;
+    position: relative;
+    background-color: #ebebeb;
+    height: 1500px;
     text-align: center;
 }
