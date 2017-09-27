@@ -14,15 +14,15 @@ body {
 header {
     padding-top: 30px;
     min-height: 70px;
-    color: #ffffff;
-    background-color: rgb(43, 41, 41);
+    color: #000000;
+    border-bottom: #000000 1px solid;
 }
 
 header a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 22px;  
-    color: #ffffff;
+    font-size: 16px;  
+    color: #000000;
 }
 
 header ul {
@@ -36,6 +36,11 @@ header li {
     padding: 0 20px 0 20px;
 }
 
+header a:hover {
+    font-weight: bold;
+    color: #000000;
+}
+
 header #branding {
     float: left;
 }
@@ -44,7 +49,23 @@ header #branding h1 {
     margin: 0;    
 }
 
-nav {
+header nav {
     float: right;
     margin-top: 10px;
+}
+header #branding span {
+    color: #0100FF;
+    font-weight: bold;
+}
+
+header .current a{
+    color: #0100ff;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 400px; 
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/showImage.jpg) no-repeat 0 -100px;
+    color: #ffffff;
+    border-bottom: #000000 1px solid;
 }
