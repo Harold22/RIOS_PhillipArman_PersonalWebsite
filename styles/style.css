@@ -3,6 +3,16 @@
     margin: 0;
 }
 
-#branding hr{
-    width: 50px;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #00FFA3;
+}
+
+nav {
+    background-color: #FF00CC;
 }
