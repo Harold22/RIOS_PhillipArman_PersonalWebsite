@@ -71,7 +71,15 @@ header .current a{
     border-bottom: #000000 1px solid;
 }
 
-#box {
-    min-height: 400px;
+#boxes {
+    margin-top: 20px;
     border-bottom: #000000 1px solid;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    margin-left: 25px;
 }
