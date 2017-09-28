@@ -108,3 +108,11 @@ header .current a{
     width: 50%;
     margin-left: 120px;
 }
+
+footer {
+    background-color: #034D3C;
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
