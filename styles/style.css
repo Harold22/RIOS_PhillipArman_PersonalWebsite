@@ -5,12 +5,20 @@ body {
     background-color: #f4f4f4;
 }
 
+/**Global**/
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
+.stretch {
+    width: 96px;
+    height: 96px;
+}
+
+
+/**Header**/
 header {
     padding-top: 30px;
     min-height: 70px;
@@ -66,6 +74,8 @@ header .current a{
     font-weight: bold;
 }
 
+
+/**Showcase**/
 #showcase {
     min-height: 400px; 
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/showImage.jpg) no-repeat 0 -100px;
@@ -73,10 +83,25 @@ header .current a{
     border-bottom: #000000 1px solid;
 }
 
-#boxes {
-    margin-top: 20px;
+#showcase .descript{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 0.6);
+    width: 36%;
+    min-height: 50px;
+    border-radius: 63px;
+    text-align: center; 
 }
 
+.descript h1 {
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#boxes {
+    margin-top: 10px;
+}
+
+/**Boxes (eat, code, sleep and repeat)**/
 #boxes .box {
     float: left;
     text-align: center;
@@ -86,6 +111,7 @@ header .current a{
     margin-top: 30px;
 }
 
+/**programming languages**/
 #prog-lang {
     margin-top: 20px; 
 }
@@ -99,16 +125,12 @@ header .current a{
     margin-top: 30px;
 }
 
-.stretch {
-    width: 96px;
-    height: 96px;
-}
-
 #prog-lang .prog p {
     width: 50%;
     margin-left: 120px;
 }
 
+/**footer**/
 footer {
     background-color: #034D3C;
     padding: 20px;
