@@ -14,7 +14,7 @@ body {
 header {
     padding-top: 30px;
     min-height: 70px;
-    color: #000000;
+    color: #ffffff;
     border-bottom: #000000 1px solid;
 }
 
@@ -38,7 +38,7 @@ header li {
 
 header a:hover {
     font-weight: bold;
-    color: #000000;
+    color: #034D3C;
 }
 
 header #branding {
@@ -48,6 +48,8 @@ header #branding {
 header #branding h1 {
     margin: 0;
     border: #000000 1px solid;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
 }
 
 header nav {
@@ -55,12 +57,12 @@ header nav {
     margin-top: 10px;
 }
 header #branding span {
-    color: #0100FF;
     font-weight: bold;
+    color: #034D3C;
 }
 
 header .current a{
-    color: #0100ff;
+    color: #034D3C;
     font-weight: bold;
 }
 
@@ -82,4 +84,27 @@ header .current a{
     padding: 10px;
     margin-left: 30px;
     margin-top: 30px;
+}
+
+#prog-lang {
+    margin-top: 20px; 
+}
+
+#prog-lang .prog {
+    float: left;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.stretch {
+    width: 96px;
+    height: 96px;
+}
+
+#prog-lang .prog p {
+    width: 50%;
+    margin-left: 120px;
 }
