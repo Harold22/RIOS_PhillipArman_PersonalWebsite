@@ -21,14 +21,14 @@
 header {
     padding-top: 30px;
     min-height: 70px;
-    background-color: #334185;
+    border-bottom: #334185 3px solid;
 }
 
 header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;  
-    color: #ffffff;
+    color: #000000;
 }
 
 header ul {
@@ -44,7 +44,7 @@ header li {
 
 header a:hover {
     font-weight: bold;
-    color: #000000;
+    color: #334185;
 }
 
 header #branding {
@@ -55,7 +55,7 @@ header #branding h1 {
     margin: 0;
     border: #000000 1px solid;    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
+    color: #000000;
 }
 
 header nav {
@@ -64,11 +64,11 @@ header nav {
 }
 header #branding span {
     font-weight: bold;
-    color: #000000;
+    color: #334185;
 }
 
 header .current a{
-    color: #000000;
+    color: #334185;
     font-weight: bold;
 }
 
@@ -98,11 +98,11 @@ header .current a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/**Boxes (eat, code, sleep and repeat)**/
 #boxes {
     margin-top: 10px;
 }
 
-/**Boxes (eat, code, sleep and repeat)**/
 #boxes .box {
     float: left;
     text-align: center;
@@ -110,9 +110,7 @@ header .current a{
     padding: 10px;
     margin-left: 30px;
     margin-top: 30px;
-}
-
-#boxes 
+} 
 
 /**programming languages**/
 #prog-lang {
@@ -131,6 +129,8 @@ header .current a{
 #prog-lang .prog p {
     width: 50%;
     margin-left: 120px;
+    text-align: center;
+    float: left;
 }
 
 /*Profile*/
