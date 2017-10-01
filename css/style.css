@@ -22,6 +22,7 @@ header {
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #334185 3px solid;
+    position: fixed;
 }
 
 header a {
@@ -77,6 +78,7 @@ header .current a{
 #showcase {
     min-height: 400px; 
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/showImage.jpg) no-repeat 0 -70px;
+    background-attachment: fixed;
     background-color: #27aeb2;
     color: #000000;
     background-size: cover;
@@ -166,6 +168,7 @@ header .current a{
 #pictures {
     min-height: 400px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/lc-view.jpg') no-repeat 0 -200px;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -193,6 +196,11 @@ header .current a{
 }
 
 /**Photos**/
+
+#slideshow {
+    margin-top: 20px;
+}
+
 .mySlides {
     display: none;
 }
@@ -210,7 +218,6 @@ header .current a{
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;
 }
 
 .numbertext {
@@ -221,6 +228,10 @@ header .current a{
     top: 0;
 }
 
+#display-dot {
+    padding-right: 500px;
+}
+
 .dot {
     height: 13px;
     width: 13px;
@@ -228,7 +239,7 @@ header .current a{
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease; 
   }
   
   .active {
@@ -258,6 +269,11 @@ header .current a{
     to {
         opacity: 1
     }
+}
+
+.slide-stretch {
+    width: 500px;;
+    height: 500px;
 }
 
 /**footer**/
