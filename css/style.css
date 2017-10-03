@@ -279,6 +279,10 @@ footer {
     box-sizing: border-box;
 }
 
+.profile-container {
+    margin: 16px;
+}
+
 .row:after {
     content: "";
     clear: both;
@@ -287,7 +291,6 @@ footer {
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
 }
 
 .col-1 {width: 8.33%;}
@@ -304,7 +307,8 @@ footer {
 .col-12 {width: 100%;}
 
 .profile-info {
-    background-color: red;
+    background-color: lightgrey;
     min-height: 400px;
     margin: 16px 16px 16px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
