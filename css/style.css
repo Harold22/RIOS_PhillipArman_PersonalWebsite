@@ -45,7 +45,7 @@ header li {
 header a:hover {
     font-weight: bold;
     color: #334185;
-    font-size: 20px;
+    font-size: 20px
 }
 
 header #branding {
@@ -76,16 +76,14 @@ header .current a{
 /**Showcase**/
 #showcase {
     min-height: 400px; 
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/showImage.jpg) no-repeat 0 -50px;
+    background: url(../images/showImage.jpg) no-repeat 0 -50px;
     background-attachment: fixed;
-    background-color: #27aeb2;
     color: #000000;
     background-size: cover;
 }
 
 #showcase .descript{
     color: #ffffff;
-    opacity: 0.7;
     min-height: 50px;
     border-radius: 63px;
     text-align: center;
@@ -256,7 +254,7 @@ header .current a{
     color: rgba(255, 255, 255, 0.9);
     font-size: 50px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(212, 212, 212, 0.2);
 }
 
 .view-stretch {
@@ -277,14 +275,19 @@ header .current a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#aboout-description a {
+    text-decoration: none;
+}
+
 #about h1 {
     font-size: 40px
 }
 
-/**Photos**/
+/**Photos Page**/
 
 #slideshow {
     margin-top: 20px;
+    min-height: 500px;
 }
 
 .mySlides {
@@ -366,16 +369,25 @@ header .current a{
 footer {
     background-color: #334185;
     padding: 20px;
-    margin-top: 20px;
     color: #ffffff;
     text-align: center;
+    position: relative;
 }
 
+/**Boxes (Eat, Code, Sleep and Repeat)**/
 #boxes {
     text-align: center;
-    margin-top: -50px
+    margin: 20px;
 }
 
 .box-stretch {
-    padding: 0 64px 0 64px;
+    padding: 20px 64px 20px 64px;
+}
+
+/*last photo*/
+#last-photo {
+    min-height: 500px;
+    background: url("../images/landingImage.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
