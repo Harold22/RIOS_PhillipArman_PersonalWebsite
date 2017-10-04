@@ -1,4 +1,4 @@
-    body {
+body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
@@ -45,6 +45,7 @@ header li {
 header a:hover {
     font-weight: bold;
     color: #334185;
+    font-size: 20px;
 }
 
 header #branding {
@@ -89,7 +90,7 @@ header .current a{
     border-radius: 63px;
     text-align: center;
     margin: auto;
-    padding-top: 90px;
+    padding-top: 25px;
 }
 
 .descript h1 {
@@ -192,10 +193,15 @@ header .current a{
 
 .profile-info {
     background-color: #EFECEC;
-    margin: 16px 16px 16px 16px;
+    margin: 16px 16px 16px 16px     ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    color: #4F4E4E;
 }
 
+.content-stretch {
+    padding: 16px;
+}
+/**progress-bar**/
 .meter { 
 	height: 20px; 
 	position: relative;
@@ -229,20 +235,28 @@ header .current a{
   text-align: center;
 }
 
+#name-stretch {
+    font-size: 25px;
+}
+
 /**Pictures**/
 
 #pictures {
-    min-height: 400px;
+    min-height: 700px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/lc-view.jpg') no-repeat 0 -200px;
     background-attachment: fixed;
     background-size: cover;
 }
 
+#pictures #view {
+    padding: 210px;
+}
+
 #pictures #view p {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 50px;
-    text-align: center;                      
-    padding: 120px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .view-stretch {
@@ -259,6 +273,12 @@ header .current a{
     padding: 20px;
     text-align: center;
     font-size: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about h1 {
+    font-size: 40px
 }
 
 /**Photos**/
@@ -349,4 +369,13 @@ footer {
     margin-top: 20px;
     color: #ffffff;
     text-align: center;
+}
+
+#boxes {
+    text-align: center;
+    margin-top: -50px
+}
+
+.box-stretch {
+    padding: 0 64px 0 64px;
 }
