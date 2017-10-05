@@ -248,7 +248,7 @@ header .current a{
 
 #pictures {
     min-height: 700px;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/lc-view.jpg') no-repeat 0 -200px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/lc-view.jpg') no-repeat 0 -200px;
     background-attachment: fixed;
     background-size: cover;
 }
