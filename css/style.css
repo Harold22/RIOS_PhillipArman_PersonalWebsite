@@ -196,6 +196,13 @@ header .current a{
     color: #4F4E4E;
 }
 
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 4px 8px 0 rgba(0, 0, 0, 0.5);   
+}
+
+.img-stretch {
+    margin: 10px;
+}
 .content-stretch {
     padding: 16px;
 }
